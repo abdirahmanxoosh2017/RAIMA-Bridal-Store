@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.*
+
+# Runtime / logs
+*.log
+storage/logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP / local
+vendor/
+node_modules/
+
+# Uploads generated at runtime
+public/uploads/*
+!public/uploads/.gitkeep
